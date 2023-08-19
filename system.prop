@@ -1,8 +1,7 @@
 # Device release name
 ro.display.series=Samsung Galaxy A24
 
-# product/board stuff
-ro.product.board=mt6789
+# product stuff
 ro.board.platform=mt6789
 
 # USB and MTP stuff
