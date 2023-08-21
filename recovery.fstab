@@ -7,6 +7,7 @@
 /boot               emmc      /dev/block/by-name/boot               flags=backup=1;display=boot;flashimg=1
 /recovery           emmc      /dev/block/by-name/recovery           flags=backup=1;display=recovery;flashimg=1
 /data               f2fs      /dev/block/by-name/userdata           flags=backup=1;display=data
+/data               f2fs      /dev/block/by-name/userdata           flags=fileencryption=aes-256-cts
 /cache              ext4      /dev/block/by-name/cache              flags=backup=1;display=cache;flashimg=1
 /efs                ext4      /dev/block/by-name/sec_efs            flags=backup=1;display=efs;flashimg=1
 /carrier            ext4      /dev/block/by-name/carrier            flags=backup=1;display=carrier;flashimg=1
